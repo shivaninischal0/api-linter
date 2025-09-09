@@ -13,13 +13,14 @@
         "bitbucket.org/creachadair/stringset",
         "dominikh/staticcheck-action",
         "github.com/jhump/protoreflect",
+        "github.com/olekukonko/tablewriter",
       ],
       enabled: false
     }
   ],
   force: {
     constraints: {
-      go: "1.22"
+      go: "1.23"
     }
   }
 }
